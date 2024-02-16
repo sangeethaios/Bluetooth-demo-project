@@ -14,6 +14,8 @@
 		7C4A307A2B7F4313008798F6 /* Bluetooth_demo_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A30782B7F4313008798F6 /* Bluetooth_demo_project.xcdatamodeld */; };
 		7C4A307C2B7F4316008798F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C4A307B2B7F4316008798F6 /* Assets.xcassets */; };
 		7C4A307F2B7F4316008798F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4A307D2B7F4316008798F6 /* LaunchScreen.storyboard */; };
+		7C4A308C2B7F441C008798F6 /* DeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4A308A2B7F441C008798F6 /* DeviceCell.swift */; };
+		7C4A308D2B7F441C008798F6 /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C4A308B2B7F441C008798F6 /* DeviceCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7C4A307B2B7F4316008798F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C4A307E2B7F4316008798F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C4A30802B7F4316008798F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4A308A2B7F441C008798F6 /* DeviceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCell.swift; sourceTree = "<group>"; };
+		7C4A308B2B7F441C008798F6 /* DeviceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				7C4A306F2B7F4313008798F6 /* AppDelegate.swift */,
 				7C4A30712B7F4313008798F6 /* SceneDelegate.swift */,
 				7C4A30732B7F4313008798F6 /* ViewController.swift */,
+				7C4A308A2B7F441C008798F6 /* DeviceCell.swift */,
+				7C4A308B2B7F441C008798F6 /* DeviceCell.xib */,
 				7C4A30752B7F4313008798F6 /* Main.storyboard */,
 				7C4A307B2B7F4316008798F6 /* Assets.xcassets */,
 				7C4A307D2B7F4316008798F6 /* LaunchScreen.storyboard */,
@@ -131,6 +137,7 @@
 				7C4A307F2B7F4316008798F6 /* LaunchScreen.storyboard in Resources */,
 				7C4A307C2B7F4316008798F6 /* Assets.xcassets in Resources */,
 				7C4A30772B7F4313008798F6 /* Main.storyboard in Resources */,
+				7C4A308D2B7F441C008798F6 /* DeviceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +151,7 @@
 				7C4A30742B7F4313008798F6 /* ViewController.swift in Sources */,
 				7C4A30702B7F4313008798F6 /* AppDelegate.swift in Sources */,
 				7C4A30722B7F4313008798F6 /* SceneDelegate.swift in Sources */,
+				7C4A308C2B7F441C008798F6 /* DeviceCell.swift in Sources */,
 				7C4A307A2B7F4313008798F6 /* Bluetooth_demo_project.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
